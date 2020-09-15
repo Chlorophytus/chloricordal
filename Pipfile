@@ -10,6 +10,10 @@ pylint = "*"
 [requires]
 python_version = "3.8"
 
-[packages]
-e1839a8 = {path = ".",editable = true}
-discord-py = {extras = ["voice"],version = "*"}
+[packages.discord-py]
+extras = [ "voice",]
+version = "*"
+
+[packages.e1839a8]
+path = "."
+editable = true
