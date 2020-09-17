@@ -6,8 +6,9 @@ import chloricordal.extensions
 from chloricordal.checks import role
 bot = commands.Bot(command_prefix='>')
 modules = [
-    'hello',
     'chat_logger',
+    'dice',
+    'hello',
     'get_version'
 ]
 
