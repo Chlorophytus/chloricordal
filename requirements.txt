@@ -1,5 +1,5 @@
 -e .
-aiohttp==3.6.2
+aiohttp==3.8.5
 async-timeout==3.0.1
 attrs==20.2.0
 cffi==1.14.3
